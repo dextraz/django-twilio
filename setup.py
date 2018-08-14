@@ -20,10 +20,7 @@ setup(
     install_requires=[
         'setuptools>=36.2',
         'twilio>=6.3.0,<7',
-        'Django>=1.8,<1.9;python_version=="3.3"',
-        'Django>=1.8,<2;python_version<"3.4"',
-        'Django>=1.8,<2.2;python_version>="3.4, <3.7"',
-        'Django>=2.1,<2.2;python_version>="3.5"',
+        'Django>=2.0,<2.2;python_version>="3.5"',
         'django-phonenumber-field>=0.6',
     ],
 
